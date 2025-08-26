@@ -1,0 +1,253 @@
+{
+  "categories": [
+    {
+      "id": "0f419584-c175-4a8e-9ab2-301b03cd5986",
+      "name": "Toys",
+      "createdAt": 1756114480232,
+      "updatedAt": 1756114480232
+    },
+    {
+      "id": "b57fb125-21f9-48ce-b47a-a816b79839b6",
+      "name": "Automotive",
+      "createdAt": 1756114480232,
+      "updatedAt": 1756114480232
+    },
+    {
+      "id": "9a60bd11-c1e3-44b4-8789-eb64fcda1a02",
+      "name": "Beauty",
+      "createdAt": 1756114480232,
+      "updatedAt": 1756114480232
+    },
+    {
+      "id": "cf27ff13-cf25-4b08-9808-ce0b923fa895",
+      "name": "Industrial",
+      "createdAt": 1756114480232,
+      "updatedAt": 1756114480232
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "0f419584-c175-4a8e-9ab2-301b03cd5986",
+      "id": "cf43c230-7bd6-4e73-be00-bce844e3acd5",
+      "name": "Small Wooden Chicken",
+      "color": "pink",
+      "price": 355.69,
+      "description": "The Programmable optimal hierarchy Pants offers reliable performance and hateful design",
+      "createdAt": 1756114480233,
+      "updatedAt": 1756114480233,
+      "thumbnailUrl": "https://picsum.photos/seed/AV6lV7k/400/400?grayscale&blur=5"
+    },
+    {
+      "categoryId": "0f419584-c175-4a8e-9ab2-301b03cd5986",
+      "id": "f3c3b0c5-1a8e-40f5-ac02-38736a15ecc3",
+      "name": "Awesome Concrete Chips",
+      "color": "white",
+      "price": 182.59,
+      "description": "Professional-grade Pizza perfect for present training and recreational use",
+      "createdAt": 1756114480233,
+      "updatedAt": 1756114480233,
+      "thumbnailUrl": "https://picsum.photos/seed/qbJUmiAUf/400/400?blur=7"
+    },
+    {
+      "categoryId": "0f419584-c175-4a8e-9ab2-301b3cd5986c",
+      "id": "f895baba-b188-41ea-bbaf-5983830e22fe",
+      "name": "Small Wooden Chicken",
+      "color": "red",
+      "price": 340,
+      "description": "The Programmable optimal hierarchy Pants offers reliable performance and hateful design",
+      "createdAt": 1756114480234,
+      "updatedAt": 1756190992934,
+      "thumbnailUrl": "https://picsum.photos/seed/AVG1V7k/400/400?grayscale&blur=5"
+    },
+    {
+      "categoryId": "0f419584-c175-4a8e-9ab2-301b03cd5986",
+      "id": "1bb07b1b-dab4-4316-bc80-8d7a57cfdb31",
+      "name": "Soft Granite Gloves",
+      "color": "azure",
+      "price": 320.25,
+      "description": "New lime Car with ergonomic design for upset comfort",
+      "createdAt": 1756114480234,
+      "updatedAt": 1756114480234,
+      "thumbnailUrl": "https://picsum.photos/seed/EqdIFTVd/400/400"
+    },
+    {
+      "categoryId": "0f419584-c175-4a8e-9ab2-301b03cd5986",
+      "id": "3b31f6de-5d7f-42fe-ad4f-51537469f596",
+      "name": "Sleek Rubber Mouse",
+      "color": "magenta",
+      "price": 89.99,
+      "description": "Ergonomic Table made with Granite for all-day juicy support",
+      "createdAt": 1756114480234,
+      "updatedAt": 1756114480234,
+      "thumbnailUrl": "https://picsum.photos/seed/Z6QbVR5VMn/400/400?blur=8"
+    },
+    {
+      "categoryId": "b57fb125-21f9-48ce-b47a-a816b79839b6",
+      "id": "58f1978d-16a7-4e58-8616-e1f1fa97f35f",
+      "name": "Licensed Silk Hat",
+      "color": "fuchsia",
+      "price": 774.19,
+      "description": "Featuring Cadmium-enhanced technology, our Computer offers unparalleled nippy performance",
+      "createdAt": 1756114480234,
+      "updatedAt": 1756114480234,
+      "thumbnailUrl": "https://picsum.photos/seed/A1qVfIE/400/400?blur=8"
+    },
+    {
+      "categoryId": "b57fb125-21f9-48ce-b47a-a816b79839b6",
+      "id": "410b3df3-52ca-40ac-aa7d-79bf16cef55a",
+      "name": "Small Plastic Gloves",
+      "color": "ivory",
+      "price": 663.49,
+      "description": "Our crispy-inspired Salad brings a taste of luxury to your pastel lifestyle",
+      "createdAt": 1756114480234,
+      "updatedAt": 1756114480234,
+      "thumbnailUrl": "https://picsum.photos/seed/r4Piv/400/400?grayscale"
+    },
+    {
+      "categoryId": "b57fb125-21f9-48ce-b47a-a816b79839b6",
+      "id": "6e06d513-6f11-4de5-bbb9-0d2ed89bcd77",
+      "name": "Frozen Plastic Chips",
+      "color": "plum",
+      "price": 727.29,
+      "description": "The lime Ball combines Cyprus aesthetics with Americium-based durability",
+      "createdAt": 1756114480234,
+      "updatedAt": 1756114480234,
+      "thumbnailUrl": "https://picsum.photos/seed/6xTvoMvtF4/400/400?grayscale&blur=4"
+    },
+    {
+      "categoryId": "b57fb125-21f9-48ce-b47a-a816b79839b6",
+      "id": "eb385db9-4d8f-4174-b381-b3c42595bfab",
+      "name": "Fantastic Silk Gloves",
+      "color": "black",
+      "price": 787.74,
+      "description": "Our turtle-friendly Salad ensures potable comfort for your pets",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/pa3zxq214b/400/400?blur=2"
+    },
+    {
+      "categoryId": "b57fb125-21f9-48ce-b47a-a816b79839b6",
+      "id": "2d487c47-4a52-47a9-97dc-95da11056c38",
+      "name": "Awesome Bronze Bacon",
+      "color": "olive",
+      "price": 272.89,
+      "description": "The Ergonomic actuating functionalities Shirt offers reliable performance and thorough design",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/mUPdu/400/400?grayscale&blur=9"
+    },
+    {
+      "categoryId": "9a60bd11-c1e3-44b4-8789-eb64fcda1a02",
+      "id": "ad07103f-47a6-4dd5-8dbc-24d5d2e8acd9",
+      "name": "Generic Rubber Shirt",
+      "color": "mint green",
+      "price": 219.75,
+      "description": "The Sierra Chair is the latest in a series of dreary products from Hettinger - Reichel",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/x2dvMt02/400/400?grayscale&blur=7"
+    },
+    {
+      "categoryId": "9a60bd11-c1e3-44b4-8789-eb64fcda1a02",
+      "id": "dd3e48d8-333c-47a7-a39f-962302780a78",
+      "name": "Small Marble Pizza",
+      "color": "teal",
+      "price": 526.15,
+      "description": "The green Pizza combines Guam aesthetics with Radon-based durability",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/Ai3Ff4ul7z/400/400?grayscale&blur=5"
+    },
+    {
+      "categoryId": "9a60bd11-c1e3-44b4-8789-eb64fcda1a02",
+      "id": "4afecdcc-edde-42c9-a6de-471228481275",
+      "name": "Ergonomic Wooden Chicken",
+      "color": "pink",
+      "price": 20.59,
+      "description": "Professional-grade Towels perfect for frozen training and recreational use",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/HC2idg/400/400?grayscale&blur=2"
+    },
+    {
+      "categoryId": "9a60bd11-c1e3-44b4-8789-eb64fcda1a02",
+      "id": "8f42476f-1cd0-418e-99fc-bec3cea2ec50",
+      "name": "Generic Metal Hat",
+      "color": "sky blue",
+      "price": 38.59,
+      "description": "Savor the sour essence in our Chips, designed for linear culinary adventures",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/4UWHROKQF/400/400?blur=6"
+    },
+    {
+      "categoryId": "9a60bd11-c1e3-44b4-8789-eb64fcda1a02",
+      "id": "7aa766ca-5e82-465a-8d03-55ce4f776335",
+      "name": "Fresh Granite Tuna",
+      "color": "teal",
+      "price": 447.1,
+      "description": "The Self-enabling disintermediate challenge Salad offers reliable performance and strict design",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/gN9xmAx/400/400?grayscale&blur=6"
+    },
+    {
+      "categoryId": "cf27ff13-cf25-4b08-9808-ce0b923fa895",
+      "id": "027781ad-6e50-45a8-809a-60844e9b2179",
+      "name": "Refined Metal Shirt",
+      "color": "azure",
+      "price": 555.45,
+      "description": "Introducing the Brazil-inspired Bacon, blending natural style with local craftsmanship",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/J7yMmUAOU/400/400?grayscale"
+    },
+    {
+      "categoryId": "cf27ff13-cf25-4b08-9808-ce0b923fa895",
+      "id": "004aac34-967d-4a60-a99a-d65b14de1c6d",
+      "name": "Practical Cotton Pants",
+      "color": "white",
+      "price": 420.59,
+      "description": "The Clarabelle Table is the latest in a series of narrow products from Rolfson, Denesik and Strosin",
+      "createdAt": 1756114480235,
+      "updatedAt": 1756114480235,
+      "thumbnailUrl": "https://picsum.photos/seed/GJDcv/400/400?blur=10"
+    },
+    {
+      "categoryId": "cf27ff13-cf25-4b08-9808-ce0b923fa895",
+      "id": "e306fa21-408e-47cb-86f9-50c42d5f083f",
+      "name": "Gorgeous Wooden Towels",
+      "color": "white",
+      "price": 144.15,
+      "description": "The Triple-buffered user-facing framework Fish offers reliable performance and beneficial design",
+      "createdAt": 1756114480236,
+      "updatedAt": 1756114480236,
+      "thumbnailUrl": "https://picsum.photos/seed/fEWyaob29/400/400?blur=8"
+    },
+    {
+      "categoryId": "cf27ff13-cf25-4b08-9808-ce0b923fa895",
+      "id": "4d98aaeb-5248-45ff-b6be-65ffdb224fcc",
+      "name": "Intelligent Granite Pants",
+      "color": "white",
+      "price": 469.99,
+      "description": "Ergonomic Towels made with Concrete for all-day mundane support",
+      "createdAt": 1756114480236,
+      "updatedAt": 1756114480236,
+      "thumbnailUrl": "https://picsum.photos/seed/L5Ua4/400/400?blur=2"
+    },
+    {
+      "categoryId": "cf27ff13-cf25-4b08-9808-ce0b923fa895",
+      "id": "378e89c0-2c8f-4567-a4dc-7ef7b663fc76",
+      "name": "Practical Gold Salad",
+      "color": "lime",
+      "price": 479.09,
+      "description": "Discover the sea lion-like agility of our Bacon, perfect for honorable users",
+      "createdAt": 1756114480236,
+      "updatedAt": 1756114480236,
+      "thumbnailUrl": "https://picsum.photos/seed/ffLFH9P8m/400/400?grayscale&blur=9"
+    }
+  ],
+  "profile": {
+    "name": "Po"
+  }
+}

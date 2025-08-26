@@ -1,0 +1,54 @@
+@baseUrl=http://localhost:3000/api
+@resourceName=products
+
+#product
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+###
+# @name filterProducts
+GET {{baseUrl}}/{{resourceName}}?price_gte=300
+
+
+###
+# @name filterProducts
+GET {{baseUrl}}/{{resourceName}}?name_like=Small
+
+###
+# @name pagination
+GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=20
+
+###
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=desc
+
+###
+# @name addNew
+
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+  "name": "New Category 2"
+}
+
+###
+
+# @name update
+PATCH {{baseUrl}}/{{resourceName}}/f895baba-b188-41ea-bbaf-5983830e22fe
+Content-Type: application/json
+
+{
+  "categoryId": "0f419584-c175-4a8e-9ab2-301b3cd5986c",
+  "name": "Small Wooden Chicken",
+  "color": "red",
+  "price": 340,
+  "description": "The Programmable optimal hierarchy Pants offers reliable performance and hateful design",
+  "thumbnailUrl": "https://picsum.photos/seed/AVG1V7k/400/400?grayscale&blur=5"
+}
+
+
+
+###
+#@name delete
+DELETE {{baseUrl}}/{{resourceName}}/2
