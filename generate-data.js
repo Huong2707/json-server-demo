@@ -1,4 +1,4 @@
-const { faker, th } = require('@faker-js/faker');
+const { faker } = require('@faker-js/faker');
 const fs = require('fs');
 faker.locale = 'vi';
 
@@ -29,11 +29,42 @@ const clothingBrands = [
     'Nike', 'Adidas', 'Uniqlo', 'Zara', 'H&M', 'Gap', 'Levi\'s', 'Calvin Klein', 'Tommy Hilfiger'
 ];
 
+// Hàm tạo URL ảnh phù hợp với từng loại quần áo
+const getClothingImageUrl = (categoryName, imageType = 'main') => {
+    let searchTerm = 'fashion';
+    
+    if (categoryName.includes('Áo thun')) {
+        searchTerm = 't-shirt';
+    } else if (categoryName.includes('Áo sơ mi')) {
+        searchTerm = 'dress-shirt';
+    } else if (categoryName.includes('Quần jean')) {
+        searchTerm = 'jeans';
+    } else if (categoryName.includes('Quần tây')) {
+        searchTerm = 'dress-pants';
+    } else if (categoryName.includes('Váy')) {
+        searchTerm = 'dress';
+    } else if (categoryName.includes('Áo khoác')) {
+        searchTerm = 'jacket';
+    } else if (categoryName.includes('thể thao')) {
+        searchTerm = 'sportswear';
+    }
+    
+    // Thêm từ khóa bổ sung để có ảnh đa dạng hơn
+    const additionalTerms = ['clothing', 'fashion', 'apparel', 'wear'];
+    const randomTerm = faker.helpers.arrayElement(additionalTerms);
+    
+    return `https://source.unsplash.com/400x400/?${searchTerm},${randomTerm}`;
+};
+
+// Alternative: Sử dụng Picsum với seed để có ảnh ổn định
+const getStableImageUrl = (productId) => {
+    return `https://picsum.photos/seed/${productId}/400/400`;
+};
+
 const randomCategoryList = (n) => {
     if (n <= 0) return [];
     const categoryList = [];
     
-    // Lấy ngẫu nhiên từ danh sách có sẵn
     const shuffled = clothingCategories.sort(() => 0.5 - Math.random());
     const selectedCategories = shuffled.slice(0, n);
     
@@ -56,6 +87,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
     
     for (const category of categoryList) {
         Array.from(new Array(numberOfProducts)).forEach(() => {
+            const productId = faker.string.uuid();
+            
             // Tạo tên sản phẩm dựa trên danh mục
             let productName = '';
             if (category.name.includes('Áo thun')) {
@@ -80,7 +113,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
             
             const product = {
                 categoryId: category.id,
-                id: faker.string.uuid(),
+                id: productId,
                 name: productName,
                 brand: faker.helpers.arrayElement(clothingBrands),
                 color: faker.helpers.arrayElement(clothingColors),
@@ -94,12 +127,32 @@ const randomProductList = (categoryList, numberOfProducts) => {
                 reviewCount: faker.number.int({ min: 0, max: 100 }),
                 createdAt: Date.now(),
                 updatedAt: Date.now(),
-                thumbnailUrl: `https://source.unsplash.com/400x400/?clothing,${faker.helpers.arrayElement(['shirt', 'pants', 'dress', 'jacket', 'fashion'])}`,
+                
+                // Cải thiện URL ảnh - Chọn 1 trong 2 phương pháp:
+                
+                // Phương pháp 1: Sử dụng Unsplash với từ khóa cụ thể
+                thumbnailUrl: getClothingImageUrl(category.name),
                 images: [
-                    `https://source.unsplash.com/400x400/?fashion,${faker.helpers.arrayElement(['casual', 'formal', 'sport', 'streetwear'])}`,
-                    `https://source.unsplash.com/400x400/?clothes,${faker.helpers.arrayElement(['summer', 'winter', 'spring', 'autumn'])}`,
-                    `https://source.unsplash.com/400x400/?style,${faker.helpers.arrayElement(['modern', 'classic', 'trendy', 'vintage'])}`
-                ]
+                    getClothingImageUrl(category.name, 'main'),
+                    getClothingImageUrl(category.name, 'detail'),
+                    getClothingImageUrl(category.name, 'style')
+                ],
+                
+                // Phương pháp 2: Sử dụng Picsum với seed (uncomment để dùng)
+                // thumbnailUrl: getStableImageUrl(productId + '-thumb'),
+                // images: [
+                //     getStableImageUrl(productId + '-1'),
+                //     getStableImageUrl(productId + '-2'),
+                //     getStableImageUrl(productId + '-3')
+                // ],
+                
+                // Phương pháp 3: Sử dụng placeholder image cố định
+                // thumbnailUrl: `https://via.placeholder.com/400x400/cccccc/333333?text=${encodeURIComponent(productName)}`,
+                // images: [
+                //     `https://via.placeholder.com/400x400/f0f0f0/333333?text=${encodeURIComponent('Ảnh 1')}`,
+                //     `https://via.placeholder.com/400x400/e0e0e0/333333?text=${encodeURIComponent('Ảnh 2')}`,
+                //     `https://via.placeholder.com/400x400/d0d0d0/333333?text=${encodeURIComponent('Ảnh 3')}`
+                // ]
             }
             productList.push(product);
         })
@@ -110,8 +163,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
 // IIFE
 (() => {
     // RANDOM DATA
-    const categoryList = randomCategoryList(8); // Tạo 8 danh mục
-    const productList = randomProductList(categoryList, 6); // Mỗi danh mục 6 sản phẩm
+    const categoryList = randomCategoryList(10);
+    const productList = randomProductList(categoryList, 10);
 
     // prepare db obj
     const db = { 
