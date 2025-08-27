@@ -29,37 +29,46 @@ const clothingBrands = [
     'Nike', 'Adidas', 'Uniqlo', 'Zara', 'H&M', 'Gap', 'Levi\'s', 'Calvin Klein', 'Tommy Hilfiger'
 ];
 
-// Hàm tạo URL ảnh phù hợp với từng loại quần áo
-const getClothingImageUrl = (categoryName, imageType = 'main') => {
-    let searchTerm = 'fashion';
-    
-    if (categoryName.includes('Áo thun')) {
-        searchTerm = 't-shirt';
-    } else if (categoryName.includes('Áo sơ mi')) {
-        searchTerm = 'dress-shirt';
-    } else if (categoryName.includes('Quần jean')) {
-        searchTerm = 'jeans';
-    } else if (categoryName.includes('Quần tây')) {
-        searchTerm = 'dress-pants';
-    } else if (categoryName.includes('Váy')) {
-        searchTerm = 'dress';
-    } else if (categoryName.includes('Áo khoác')) {
-        searchTerm = 'jacket';
-    } else if (categoryName.includes('thể thao')) {
-        searchTerm = 'sportswear';
-    }
-    
-    // Thêm từ khóa bổ sung để có ảnh đa dạng hơn
-    const additionalTerms = ['clothing', 'fashion', 'apparel', 'wear'];
-    const randomTerm = faker.helpers.arrayElement(additionalTerms);
-    
-    return `https://source.unsplash.com/400x400/?${searchTerm},${randomTerm}`;
+// Ảnh curated: dùng photo-id cố định của Unsplash (ổn định, không qua proxy)
+// Curated Pexels URLs (ổn định, trả về 200 khi mở trực tiếp)
+const PEXELS_CLOTHING_URLS = {
+    'Áo thun': [
+        'https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+        'https://images.pexels.com/photos/6311657/pexels-photo-6311657.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ],
+    'Áo sơ mi': [
+        'https://images.pexels.com/photos/19068124/pexels-photo-19068124.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+        'https://images.pexels.com/photos/7679724/pexels-photo-7679724.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ],
+    'Quần jean': [
+        'https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+        'https://images.pexels.com/photos/4046309/pexels-photo-4046309.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ],
+    'Quần tây': [
+        'https://images.pexels.com/photos/3755701/pexels-photo-3755701.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ],
+    'Váy': [
+        'https://images.pexels.com/photos/7940642/pexels-photo-7940642.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+        'https://images.pexels.com/photos/7940644/pexels-photo-7940644.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ],
+    'Áo khoác': [
+        'https://images.pexels.com/photos/7679725/pexels-photo-7679725.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+        'https://images.pexels.com/photos/7679681/pexels-photo-7679681.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ],
+    'thể thao': [
+        'https://images.pexels.com/photos/4761794/pexels-photo-4761794.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+        'https://images.pexels.com/photos/4662348/pexels-photo-4662348.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+    ]
 };
 
-// Alternative: Sử dụng Picsum với seed để có ảnh ổn định
-const getStableImageUrl = (productId) => {
-    return `https://picsum.photos/seed/${productId}/400/400`;
-};
+function getStableClothingUrl(categoryName) {
+    const key = Object.keys(PEXELS_CLOTHING_URLS).find(k => categoryName.includes(k)) || 'Áo thun';
+    return faker.helpers.arrayElement(PEXELS_CLOTHING_URLS[key]);
+}
+
+function picsumSeed(seed) {
+    return `https://picsum.photos/seed/${encodeURIComponent(seed)}/400/400`;
+}
 
 const randomCategoryList = (n) => {
     if (n <= 0) return [];
@@ -128,31 +137,13 @@ const randomProductList = (categoryList, numberOfProducts) => {
                 createdAt: Date.now(),
                 updatedAt: Date.now(),
                 
-                // Cải thiện URL ảnh - Chọn 1 trong 2 phương pháp:
-                
-                // Phương pháp 1: Sử dụng Unsplash với từ khóa cụ thể
-                thumbnailUrl: getClothingImageUrl(category.name),
+                // Ảnh ổn định: dùng curated Unsplash + fallback picsum seed
+                thumbnailUrl: getStableClothingUrl(category.name) || picsumSeed(productId + '-m'),
                 images: [
-                    getClothingImageUrl(category.name, 'main'),
-                    getClothingImageUrl(category.name, 'detail'),
-                    getClothingImageUrl(category.name, 'style')
-                ],
-                
-                // Phương pháp 2: Sử dụng Picsum với seed (uncomment để dùng)
-                // thumbnailUrl: getStableImageUrl(productId + '-thumb'),
-                // images: [
-                //     getStableImageUrl(productId + '-1'),
-                //     getStableImageUrl(productId + '-2'),
-                //     getStableImageUrl(productId + '-3')
-                // ],
-                
-                // Phương pháp 3: Sử dụng placeholder image cố định
-                // thumbnailUrl: `https://via.placeholder.com/400x400/cccccc/333333?text=${encodeURIComponent(productName)}`,
-                // images: [
-                //     `https://via.placeholder.com/400x400/f0f0f0/333333?text=${encodeURIComponent('Ảnh 1')}`,
-                //     `https://via.placeholder.com/400x400/e0e0e0/333333?text=${encodeURIComponent('Ảnh 2')}`,
-                //     `https://via.placeholder.com/400x400/d0d0d0/333333?text=${encodeURIComponent('Ảnh 3')}`
-                // ]
+                    getStableClothingUrl(category.name) || picsumSeed(productId + '-1'),
+                    getStableClothingUrl(category.name) || picsumSeed(productId + '-2'),
+                    getStableClothingUrl(category.name) || picsumSeed(productId + '-3')
+                ]
             }
             productList.push(product);
         })

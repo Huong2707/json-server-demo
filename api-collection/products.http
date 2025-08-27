@@ -6,8 +6,14 @@
 GET {{baseUrl}}/{{resourceName}}
 
 ###
+# @name GET by categoryId
+GET {{baseUrl}}/{{resourceName}}?categoryId=a9b5d97e-3532-4625-ba05-5198b828619f
+
+
+###
 # @name filterProducts
 GET {{baseUrl}}/{{resourceName}}?price_gte=300
+
 
 
 ###
