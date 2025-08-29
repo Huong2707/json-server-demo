@@ -304,15 +304,13 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378916/9b0f59dd65e354a6ac242819fc969d88_tn_zyvklz.webpn"
       ]
     },
     {
       "categoryId": "9382750f-226e-448f-b6af-ec24611f2e9e",
       "id": "4f89a4fc-64e1-4799-a617-596fec9e34c5",
-      "name": "Áo sơ mi trắng nữ",
+      "name": "Áo sơ mi tay bồng",
       "brand": "Levi's",
       "color": "Vàng",
       "size": "L",
@@ -333,15 +331,13 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378920/vn-11134207-7r98o-lkq11e67ndnu81_tn_j9zrsp.webp"
       ]
     },
     {
       "categoryId": "9382750f-226e-448f-b6af-ec24611f2e9e",
       "id": "ffc6a44e-e94c-48be-86fb-32b3f55e5caa",
-      "name": "Áo sơ mi trắng nữ",
+      "name": "Áo sơ mi cộc tay",
       "brand": "Tommy Hilfiger",
       "color": "Đỏ",
       "size": "S",
@@ -362,9 +358,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378933/vn-11134207-7ra0g-m7rg7fx9yfnq17_tn_y21pv7.webp"
       ]
     },
     {
@@ -391,9 +385,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378918/vn-11134207-7qukw-lgnkjkdvmq0ic1_tn_waxrlx.webp"
       ]
     },
     {
@@ -420,9 +412,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378858/vn-11134201-7ra0g-ma27ydmd20be63_tn_flknvo.webp"
       ]
     },
     {
@@ -449,9 +439,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378870/vn-11134207-7ras8-m3c8w0zqo7c107_tn_nqldsl.webp"
       ]
     },
     {
@@ -478,15 +466,13 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378864/vn-11134207-7ra0g-m6qoy13cz49z77_tn_tfwr0p.webp"
       ]
     },
     {
       "categoryId": "425d450d-e35f-4626-942d-95f3735f21e3",
       "id": "d5f311a4-aed2-40d6-bc5c-b332e32064af",
-      "name": "Áo thun croptop",
+      "name": "Áo thun bo",
       "brand": "Zara",
       "color": "Xám",
       "size": "L",
@@ -507,9 +493,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378863/vn-11134207-7r98o-lyl2u2561z8hc3_tn_yplq3g.webp"
       ]
     },
     {
@@ -536,9 +520,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378857/sg-11134201-7repi-m844m7gecpsy68_tn_ths1zq.webp"
       ]
     },
     {
@@ -565,9 +547,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378871/vn-11134207-7ras8-mamfdiehz2khbe_tn_dya0yi.webp"
       ]
     },
     {
@@ -594,11 +574,8 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
-      ]
-    },
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756377994/vn-11134207-7r98o-lwgi1u56jjdl1d_tn_mhxhsc.webp"
+  ]},
     {
       "categoryId": "cf507f07-0955-4d6e-ae3b-68b60344166b",
       "id": "bea5cdcc-0a4b-4f77-9d70-8581eacee406",
@@ -623,9 +600,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756377994/vn-11134207-7r98o-lz1oyh156jilf3_tn_yi5nj6.webp"
       ]
     },
     {
@@ -652,10 +627,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
-      ]
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756377994/vn-11134201-7ras8-m4uhmseclf1340_tn_a2p5az.webp"]
     },
     {
       "categoryId": "cf507f07-0955-4d6e-ae3b-68b60344166b",
@@ -681,10 +653,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
-      ]
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756377995/vn-11134207-7ras8-m2t02qleor9i95_tn_iuxdu0.webp"]
     },
     {
       "categoryId": "cf507f07-0955-4d6e-ae3b-68b60344166b",
@@ -710,9 +679,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756377995/vn-11134211-7ra0g-m73kgdpjk1i916_tn_adbrf4.webp"
       ]
     },
     {
@@ -739,9 +706,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-dress,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756377995/vn-11134211-7ra0g-m73kgdpjk1i916_tn_adbrf4.webp"
       ]
     },
     {
@@ -768,9 +733,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378551/vn-11134207-7ras8-m2qqmpmkr2mebc_tn_nibpic.webp"
       ]
     },
     {
@@ -797,15 +760,13 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378552/vn-11134207-7ras8-m2x80tnlpmt6c5_tn_xb8wum.webp"
       ]
     },
     {
       "categoryId": "6f13a634-99d8-4ebf-b054-74ba940b1ab6",
       "id": "50276815-7235-485a-8bc1-2de228b9f1a4",
-      "name": "Áo sơ mi công sở nam",
+      "name": "Áo sơ mi thô nam",
       "brand": "Uniqlo",
       "color": "Trắng",
       "size": "XL",
@@ -826,15 +787,13 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378555/vn-11134207-7ras8-m12wtyq7q36n33_tn_jcyho5.webp"
       ]
     },
     {
       "categoryId": "6f13a634-99d8-4ebf-b054-74ba940b1ab6",
       "id": "d3765e25-3789-4ebe-a66e-397ab206bb76",
-      "name": "Áo sơ mi công sở nam",
+      "name": "Áo sơ mi nam đũi",
       "brand": "Uniqlo",
       "color": "Vàng",
       "size": "XXL",
@@ -855,15 +814,13 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378556/vn-11134207-7ras8-m339jm4wpk3q7f_tn_n8wgz3.webp"
       ]
     },
     {
       "categoryId": "6f13a634-99d8-4ebf-b054-74ba940b1ab6",
       "id": "f3450542-104d-447f-83f5-850299849dc1",
-      "name": "Áo sơ mi trắng nam",
+      "name": "Áo sơ mi nam xanh",
       "brand": "Nike",
       "color": "Nâu",
       "size": "M",
@@ -884,15 +841,13 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378545/vn-11134207-7ra0g-m8xeevxfs4sk1a_tn_xzbwrt.webp"
       ]
     },
     {
       "categoryId": "6f13a634-99d8-4ebf-b054-74ba940b1ab6",
       "id": "e35206fe-5ed9-4302-bf7f-c6ca9348588d",
-      "name": "Áo sơ mi công sở nam",
+      "name": "Áo sơ mi nam cộc tay",
       "brand": "Tommy Hilfiger",
       "color": "Hồng",
       "size": "XXL",
@@ -913,9 +868,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-shirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378544/vn-11134207-7r98o-lwwxy1azmimx94_tn_mm9h3w.webp"
       ]
     },
     {
@@ -942,9 +895,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378616/vn-11134207-7r98o-lyozaauay8gdbd_tn_jzxhet.webp"
       ]
     },
     {
@@ -971,9 +922,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378617/vn-11134207-7ra0g-maaynis5756a56_tn_k8rowt.webp"
       ]
     },
     {
@@ -1000,15 +949,13 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378622/vn-11134207-7ra0g-majngwapi36400_tn_y4vn2d.webp"
       ]
     },
     {
       "categoryId": "6aec8a4e-f86e-4451-9d3b-5c46056f7d82",
       "id": "3f0d9b7b-a1a9-4fce-8ff5-27e8c3ddc634",
-      "name": "Quần jean straight nam",
+      "name": "Quần jean sữa nam",
       "brand": "Levi's",
       "color": "Nâu",
       "size": "M",
@@ -1029,9 +976,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378627/vn-11134207-7ras8-m391g3rdk6wce1_tn_e3qxcd.webp"
       ]
     },
     {
@@ -1058,15 +1003,13 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378627/vn-11134207-7ras8-mam6z5d2vg7r65_tn_esm2pp.webp"
       ]
     },
     {
       "categoryId": "6aec8a4e-f86e-4451-9d3b-5c46056f7d82",
       "id": "26722a78-3e35-4b55-bc2e-5292d1f6214a",
-      "name": "Quần jean skinny nam",
+      "name": "Quần jean lados nam",
       "brand": "Levi's",
       "color": "Tím",
       "size": "S",
@@ -1087,9 +1030,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378628/vn-11134207-7ras8-mbdcxtr3cclz48_tn_zizr1v.webp"
       ]
     },
     {
@@ -1116,9 +1057,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
-        "https://source.unsplash.com/400x400/?unisex-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,unisex-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378982/vn-11134207-7r98o-ly5zfw1f8ols70_tn_ijxjwf.webp"
       ]
     },
     {
@@ -1145,9 +1084,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
-        "https://source.unsplash.com/400x400/?unisex-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,unisex-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378988/vn-11134207-7ra0g-ma8pvs4lqbfsb6_tn_ua9kjp.webp"
       ]
     },
     {
@@ -1174,9 +1111,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
-        "https://source.unsplash.com/400x400/?unisex-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,unisex-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378993/vn-11134207-7ras8-m28czs453xde60_tn_g5tzdl.webp"
       ]
     },
     {
@@ -1203,9 +1138,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
-        "https://source.unsplash.com/400x400/?unisex-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,unisex-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756379005/vn-11134207-7ras8-md19vhyb7r5r31_tn_hwimzs.webp"
       ]
     },
     {
@@ -1232,15 +1165,13 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
-        "https://source.unsplash.com/400x400/?unisex-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,unisex-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378992/vn-11134207-7ras8-m2ge7txj4pf6c1_tn_nofurl.webp"
       ]
     },
     {
       "categoryId": "bd8a5dc2-c47e-4d4f-b455-cc922771df02",
       "id": "646c61cc-f880-4e82-adc3-8c465323b155",
-      "name": "Áo bomber",
+      "name": "Áo hoodie ",
       "brand": "Adidas",
       "color": "Cam",
       "size": "S",
@@ -1261,9 +1192,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?jacket,clothing,fashion",
-        "https://source.unsplash.com/400x400/?unisex-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,unisex-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378992/vn-11134207-7ras8-m2ge7txj4pf6c1_tn_nofurl.webp"
       ]
     },
     {
@@ -1290,9 +1219,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378660/sg-11134201-7rdy7-m0x1m9two7yf26_tn_fefomz.webp"
       ]
     },
     {
@@ -1319,9 +1246,7 @@
       "updatedAt": 1756290499639,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378661/vn-11134207-7r98o-lzqa8ujpleox26_tn_js0xjn.webp"
       ]
     },
     {
@@ -1348,15 +1273,13 @@
       "updatedAt": 1756290499641,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378660/sg-11134201-7rdy7-m0x1m9two7yf26_tn_fefomz.webp"
       ]
     },
     {
       "categoryId": "d6e5e24b-8c28-4031-a836-85d551a2f5b3",
       "id": "1ab6f5c7-e5dd-42c9-93bb-7af5ff1397ef",
-      "name": "Quần jean boyfriend",
+      "name": "Quần jean đũi",
       "brand": "Adidas",
       "color": "Xanh dương",
       "size": "L",
@@ -1377,15 +1300,13 @@
       "updatedAt": 1756290499641,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378672/vn-11134207-7ras8-m2taagb4w9o013_tn_bmyqr3.webp"
       ]
     },
     {
       "categoryId": "d6e5e24b-8c28-4031-a836-85d551a2f5b3",
       "id": "341f184c-ebd8-4b24-93e2-0ff0ae3d36ed",
-      "name": "Quần jean boyfriend",
+      "name": "Quần jean xuông ống nữ",
       "brand": "Gap",
       "color": "Xám",
       "size": "S",
@@ -1406,9 +1327,7 @@
       "updatedAt": 1756290499641,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378666/vn-11134207-7ra0g-m84sp7vqphdw9d_tn_gixs4o.webp"
       ]
     },
     {
@@ -1435,9 +1354,7 @@
       "updatedAt": 1756290499641,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-jeans,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756378672/vn-11134207-7ras8-m4o22egz66rzc5_tn_hgpyg8.webp"
       ]
     }
   ],
