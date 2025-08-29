@@ -90,15 +90,12 @@
       "updatedAt": 1756290499637,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
-      ]
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430842/sg-11134201-7rdxm-ly0amvl1okgad8_tn_vbso2h.webp"      ]
     },
     {
       "categoryId": "a760acad-3673-42f8-bc0e-258f3264f91c",
       "id": "1b0eb31c-53a4-4777-87d1-b3f346ea3e18",
-      "name": "Áo thun basic nam",
+      "name": "Áo thun basic nhẹ",
       "brand": "Nike",
       "color": "Tím",
       "size": "XL",
@@ -119,9 +116,7 @@
       "updatedAt": 1756290499637,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430842/vn-11134207-7r98o-lu8nhmtwkm4xda_tn_fakoqp.webp"
       ]
     },
     {
@@ -148,15 +143,13 @@
       "updatedAt": 1756290499637,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430842/vn-11134207-7qukw-litw1dqmbv9oac_tn_lzuwtg.webp"
       ]
     },
     {
       "categoryId": "a760acad-3673-42f8-bc0e-258f3264f91c",
       "id": "789fd9ba-8c41-4b07-86d7-3b9748bfa8aa",
-      "name": "Áo thun basic nam",
+      "name": "Áo thun basic Graphic",
       "brand": "Nike",
       "color": "Hồng",
       "size": "S",
@@ -177,15 +170,13 @@
       "updatedAt": 1756290499637,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430842/vn-11134207-7r98o-lxxm0cbimbq140_tn_vhrphy.webp"
       ]
     },
     {
       "categoryId": "a760acad-3673-42f8-bc0e-258f3264f91c",
       "id": "1078ac0d-88e1-4fe3-8fda-c75c677a90dd",
-      "name": "Áo thun graphic nam",
+      "name": "Áo thun graphic cổ tròn",
       "brand": "Zara",
       "color": "Nâu",
       "size": "S",
@@ -206,15 +197,13 @@
       "updatedAt": 1756290499637,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430843/vn-11134207-7r98o-lxz3il42wtzv21_tn_vmqbvn.webp"
       ]
     },
     {
       "categoryId": "a760acad-3673-42f8-bc0e-258f3264f91c",
       "id": "d15e1733-2521-4db7-b540-b7038a65c283",
-      "name": "Áo thun graphic nam",
+      "name": "Áo thun graphic CLC",
       "brand": "Gap",
       "color": "Nâu",
       "size": "XXL",
@@ -235,9 +224,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?men-tshirt,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nam-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nam-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430843/vn-11134207-7ras8-mcx4gnjpkncv77_tn_-_Copy_abwmw9.webp"
       ]
     },
     {
@@ -264,10 +251,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
-      ]
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430843/vn-11134207-7ra0g-m9gykzv8febo50_tn_cfraq2.webp"]
     },
     {
       "categoryId": "9382750f-226e-448f-b6af-ec24611f2e9e",
@@ -293,9 +277,7 @@
       "updatedAt": 1756290499638,
       "thumbnailUrl": "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
       "images": [
-        "https://source.unsplash.com/400x400/?women-blouse,clothing,fashion",
-        "https://source.unsplash.com/400x400/?nữ-fashion,style",
-        "https://source.unsplash.com/400x400/?clothing,nữ-wear"
+        "https://res.cloudinary.com/dwrgwqcng/image/upload/v1756430843/vn-11134207-7r98o-m0cgeom3xrbjd2_tn_zzyyob.webp"
       ]
     },
     {
